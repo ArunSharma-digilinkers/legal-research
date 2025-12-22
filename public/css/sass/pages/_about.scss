@@ -1,0 +1,45 @@
+/*===============================================================
+	About us page
+=================================================================*/
+.page-nav-wrap {
+	padding: 1rem 0;
+}
+
+.page-nav-section {
+	text-align: center;
+}
+
+.page-nav-link {
+	display: block;
+    border: 1px solid $color-primary;
+    padding: 0.5rem 1rem;
+	color: $color-primary;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.about-section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: $color-white;
+	font-weight: bold;
+}
+
+.about-section1 {
+	background-color: rgb(218, 15, 15);
+}
+
+.about-section2 {
+	background-color: rgb(218, 198, 15);
+}
+
+.about-section3 {
+	background-color: rgb(15, 218, 66);
+}
+
+.about-section4 {
+	background-color: rgb(15, 154, 218);
+}
