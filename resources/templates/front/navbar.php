@@ -17,16 +17,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>about-us">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $path; ?>component">Components</a>
-                </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Navbar</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Services</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="<?php echo $path; ?>nav-components">Dropdown Navbar</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">service 1</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">service 2</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -35,16 +31,7 @@
                 <li class="nav-item nav-item-modal">
                     <a class="nav-link btn c-btn btn-show-modal" href="#">Quick Enquiry</a>
                 </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="<?php //echo $path; ?>contact-us">Contact</a> -->
-                     <div class="mode-toggler">
-                        <input type="checkbox" class="theme-btn" id="theme-btn">
-                        <label for="theme-btn" class="theme-btn-label">
-                            <span class="active-mode hidden"><i class="fas fa-moon"></i>Dark Mode</span>
-                            <span class="active-mode"><i class="fas fa-sun"></i>Light Mode</span>
-                        </label>
-                     </div>
-                </li>
+                
             </ul>
         </div>
     </div>

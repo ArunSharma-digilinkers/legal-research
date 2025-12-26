@@ -14,12 +14,36 @@
 					<label>Message</label>
 					<textarea rows="3" class="form-control"></textarea>
 				</div>
-				<button type="submit" class="btn c-btn">Submit</button>
+				<button type="submit" class="btn c-btn mt-4">Submit</button>
 			</form>
 		</div>
 		<div class="digi-modal-overlay hidden"></div>
 		
 		<div class="footer-wrapper">
+
+			<!-- Contact Consultation Section -->
+			<div class="footer-section">
+			<h2>Contact Us for a Free Consultation</h2>
+			<div class="contact-buttons">
+				<button class="btn-consultation" onclick="requestConsultation()">Request Consultation</button>
+				<a href="tel:1234567890" class="btn-call">
+				   Call Us: (123) 456-7890
+				</a>
+			</div>
+
+			<!-- Footer Links -->
+			<div class="quick-links">
+				<a href="#">Quick Links</a> |
+				<a href="#">Home</a> |
+				<a href="#">About Us</a> |
+				<a href="#">Practice Areas</a> |
+				<a href="#">Attorneys</a> |
+				<a href="#">Blog</a> |
+				<a href="#">Privacy Policy</a> |
+				<a href="#">Terms of Service</a>
+			</div>
+			</div>
+
 
 			<div class="top-footer-wrapper">
 				<a class="scroll-top">Scroll to Top</a>
@@ -40,7 +64,14 @@
 		<script src="<?php echo $path; ?>js/jquery-3.7.1.min.js" ></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 		<script src="<?php echo $path; ?>js/bootstrap.min.js" ></script>
+        
+		<!-- Owl carousel -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+
+		<!-- aos js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+		
 		<!-- Swiper JS -->
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		

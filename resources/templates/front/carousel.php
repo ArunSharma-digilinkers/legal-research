@@ -1,23 +1,26 @@
 <div id="digiCarousel" class="carousel slide page-banner" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item carousel-item1 active">
+            <div class="carousel-caption d-none d-md-block" data-aos="fade-left">
+                <h2>Your Trusted Partner in <span>Legal Research</span></h2>
+                <p>Some representative placeholder content for the first slide.</p>
+                <div class="banner-btn">
+                    <a href="">Schedule a Consultation</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="carousel-item carousel-item2">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
-        </div>
-        <div class="carousel-item carousel-item2">
+        </div> -->
+        <!-- <div class="carousel-item carousel-item3">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
-        </div>
-        <div class="carousel-item carousel-item3">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-            </div>
-        </div>
+        </div> -->
     </div>
     <a class="carousel-control-prev digi-prev" data-bs-target="#digiCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon digi-prev-icon" aria-hidden="true"></span>
